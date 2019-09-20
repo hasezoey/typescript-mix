@@ -160,7 +160,7 @@ import { use, delegate } from "typescript-mix"
 Consider the following piece of code.
 ![alt text](https://github.com/michaelolof/typescript-mix/blob/master/imgs/2018-05-30%2021_32_46-Preview%20README.md%20-%20typescript-mix%20-%20Visual%20Studio%20Code.png?raw=true)
 
-Cleint One uses two mixins that contain the same method mixIt(). How do we resolve this? Which method gets picked?.
+Client One uses two mixins that contain the same method mixIt(). How do we resolve this? Which method gets picked?.
 One advantage of extending interfaces as we've defined above is that we're essentially telling TypeScript to mix-in the two mixin interfaces into the ClientOne interface. So how does TypeScript resolve this?
 
 ![alt text](https://github.com/michaelolof/typescript-mix/blob/master/imgs/2018-05-30%2021_49_13-final.ts%20-%20typescript-mix%20-%20Visual%20Studio%20Code.png?raw=true)
